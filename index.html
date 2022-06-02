@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/android-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <div class="logo-Alura">
+            <img src="./assets/images/Logo.png" alt="Logo Alura" id="logo-Alura">
+        </div>
+    </header>
+
+    <main>
+        <div class="div_principal" id="div_principal">
+            <input type="button" class="boton_1" id="btn_juego" value="Iniciar Juego!">
+            <input type="button" class="boton_2" id="btn_agregar" value="Agregar una nueva palabra.">
+        </div>
+
+        <div class="oculto" id="div_juego">
+            <canvas width="1200" height="800" class="area_dibujo" id="area_dibujo"> </canvas>
+            <input type="button" class="boton_3" id="btn_nuevo_juego" value="Nuevo juego">
+            <input type="button" class="boton_4" id="btn_desistir" value="Desistir y volver al menu">
+        </div>
+
+        <div class="oculto" id="div_agregar">
+            <textarea name="area_agregar" class="area_agregar" id="area_agregar" placeholder="Ingrese una palabra" cols="20" rows="2" maxlength="8"></textarea>
+            <img src="./assets/images/Vector.svg" alt="Vector" class="vector">
+            <p class="vector_letras">Máximo de 8 letras.</p>
+            <input type="button" class="boton_3" id="btn_guardar" value="Guardar">
+            <input type="button" class="boton_4" id="btn_cancelar" value="Cancelar">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy Matias Fernandez. Contacto: <a href="https://www.linkedin.com/in/matias-hernan-fernandez/" target="_blank"><img src="./assets/images/logo-linkedin.svg" alt="linkedin" class="img-contacto"></a></p>
+    </footer>
+
+    <script src="./JS/comportamiento.js"></script>
+</body>
+
+</html>

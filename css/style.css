@@ -1,0 +1,116 @@
+body{
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(rgb(210, 210, 230), aliceblue);
+}
+
+.logo-Alura{
+    position: absolute;
+    top: 40px;
+    left: 84px;
+}
+
+.oculto{
+    display: none;
+}
+
+.boton_1{
+    position: absolute;
+    top: 350px;
+    left: 800px;
+
+    width: 300px;
+    height: 67px;
+    color: white;
+    background-color: #0A3871;
+    font-size: large;
+    border-radius: 24px;
+    margin: 0 24px;
+}
+
+.boton_2{
+    position: absolute;
+    top: 450px;
+    left: 855px;
+
+    width: 200px;
+    height: 50px;
+    color: #0A3871;
+    background-color: rgb(233, 227, 227);
+    font-size: small;
+    border-radius: 24px;
+    margin: 0 24px;
+}
+
+.boton_3{
+    position: absolute;
+    top: 720px;
+    left: 650px;
+
+    width: 250px;
+    height: 55px;
+    color: white;
+    background-color: #0A3871;
+    border-radius: 24px;
+    margin: 0 24px;
+}
+
+.boton_4{
+    position: absolute;
+    top: 720px;
+    left: 950px;
+
+    width: 250px;
+    height: 55px;
+    color: #0A3871;
+    background-color: rgb(233, 227, 227);
+    border-radius: 24px;
+    margin: 0 24px;
+}
+
+.area_agregar{
+    position: absolute;
+    top: 250px;
+    left: 645px;
+
+    border: 0;
+    outline: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+    background: #DBDDED;
+    overflow: hidden;
+    resize: none;
+}
+
+.vector{
+    position: absolute;
+    top: 450px;
+    left: 650px;
+}
+
+.vector_letras{
+    position: absolute;
+    top: 451px;
+    left: 670px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.footer{
+    position: absolute;
+    top: 900px;
+    left: 150px;
+    width: 400px;
+    font-style:oblique;
+    font-weight: bold;
+}
+
+.footer .img-contacto{
+    max-width: 30px;
+    max-height: 30px;
+}
