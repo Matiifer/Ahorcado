@@ -1,4 +1,4 @@
-var palabras = ["HOLA", "MANDAR", "DALEROJO", "CAI", "BOCHINI", "ROJO", "GUADA"];
+var palabras = ["AHORCADO", "PALABRA", "LETRAS", "PAGINA", "WEB", "LENGUAJE", "EDITOR", "TEXTO"];
 var pantalla = document.querySelector("canvas");
 var pincel = pantalla.getContext("2d");
 var palabra_random;
